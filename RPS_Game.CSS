@@ -1,0 +1,36 @@
+* {
+  background-color: #333333;
+}
+
+#score-board {
+  display: flex;
+  flex-direction: row;
+  border-collapse: collapse;
+  left: auto;
+  font-size: 20px;
+}
+
+.score {
+  border: 5px solid white;
+  color: white;
+  padding: 10px;
+}
+
+#game-space {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 30px;
+}
+
+.game-choice {
+  border-radius: 5px;
+  border: 3px solid white;
+  padding: 10px;
+  color: white;
+}
+
+#result-message {
+  color: white;
+  font-weight: bold;
+}
